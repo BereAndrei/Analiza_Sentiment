@@ -16,6 +16,7 @@ if not input_folder or not output_folder:
     exit()
 
 
+
 os.makedirs(output_folder, exist_ok=True)
 if os.listdir(output_folder):
     messagebox.showerror("Folder Not Empty",f"The folder '{output_folder}' is not empty.\nPlease select an empty folder.")
